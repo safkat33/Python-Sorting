@@ -40,3 +40,4 @@ binary_sum_striped = binary_sum.strip(" 0")
 
 print(binary_sum_striped)
 
+print((bin(int(a, 2) + int(b, 2))[2:]).strip("0"))
